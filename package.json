@@ -48,7 +48,10 @@
         "jsx": true
       }
     },
-    "plugins": ["meteor", "react"],
+    "plugins": [
+      "meteor",
+      "react"
+    ],
     "extends": [
       "airbnb",
       "plugin:meteor/recommended",
@@ -69,7 +72,10 @@
       "import/extensions": 0,
       "no-alert": 0,
       "no-console": 0,
-      "no-return-assign": ["error", "except-parens"],
+      "no-return-assign": [
+        "error",
+        "except-parens"
+      ],
       "no-underscore-dangle": [
         "error",
         {
